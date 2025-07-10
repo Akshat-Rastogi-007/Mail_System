@@ -8,3 +8,9 @@
 2025-07-10 12:55:41.621 [main] INFO  email - Successfully sent email for key id1
 2025-07-10 12:55:41.627 [main] INFO  email - Successfully sent email for key idempotent-key
 2025-07-10 12:55:41.627 [main] WARN  email - Email already sent for key idempotent-key
+2025-07-10 13:25:33.840 [main] INFO  email - Successfully sent email for key id3
+2025-07-10 13:25:33.845 [main] WARN  email - Rate limit exceeded for key id4
+2025-07-10 13:25:36.867 [main] INFO  email - Successfully sent email for key id2
+2025-07-10 13:25:36.870 [main] INFO  email - Successfully sent email for key id1
+2025-07-10 13:25:36.872 [main] INFO  email - Successfully sent email for key idempotent-key
+2025-07-10 13:25:36.872 [main] WARN  email - Email already sent for key idempotent-key
