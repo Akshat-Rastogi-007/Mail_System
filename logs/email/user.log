@@ -1,0 +1,10 @@
+2025-07-10 12:27:52.341 [http-nio-8080-exec-9] INFO  email - MockProviderOne: Attempting to send email to user@example.com
+2025-07-10 12:27:52.343 [http-nio-8080-exec-9] INFO  email - MockProviderOne: Email sent successfully to user@example.com
+2025-07-10 12:27:52.343 [http-nio-8080-exec-9] INFO  email - Successfully sent email for key abc123
+2025-07-10 12:28:23.456 [http-nio-8080-exec-10] INFO  email - Retrieving email status for key abc123
+2025-07-10 12:55:38.597 [main] INFO  email - Successfully sent email for key id3
+2025-07-10 12:55:38.601 [main] WARN  email - Rate limit exceeded for key id4
+2025-07-10 12:55:41.619 [main] INFO  email - Successfully sent email for key id2
+2025-07-10 12:55:41.621 [main] INFO  email - Successfully sent email for key id1
+2025-07-10 12:55:41.627 [main] INFO  email - Successfully sent email for key idempotent-key
+2025-07-10 12:55:41.627 [main] WARN  email - Email already sent for key idempotent-key
